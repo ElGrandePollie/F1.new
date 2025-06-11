@@ -5,6 +5,31 @@
   <meta charset="UTF-8">
   <title>Contact - F1 Website</title>
   <style>
+table {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  th, td {
+    font-size: 14px; /* kleinere letters op mobiel */
+    padding: 8px;
+  }
+  
+  nav {
+    gap: 20px; /* minder ruimte tussen iconen */
+    flex-wrap: wrap; /* zodat de nav op mobiel netjes onder elkaar komt */
+  }
+
+  nav a img {
+    width: 100px;
+    height: auto;
+  }
+}
+
+      
     body {
       font-family: Arial, sans-serif;
       margin: 0;
